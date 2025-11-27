@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[27800,["/jkbbth/_next/static/chunks/58bf1e3606ebd3a8.js","/jkbbth/_next/static/chunks/7cca71f807365e03.js","/jkbbth/_next/static/chunks/a7212d15d999bc78.js","/jkbbth/_next/static/chunks/e6531bbba53b4921.js"],"default"]
-3:I[97367,["/jkbbth/_next/static/chunks/ff1a16fafef87110.js","/jkbbth/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+2:I[27800,["/_next/static/chunks/1056d8bd3ebb963e.js","/_next/static/chunks/7cca71f807365e03.js","/_next/static/chunks/b70c2acfe835be27.js","/_next/static/chunks/d774b74e798b3ded.js"],"default"]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"BKKivvat4F2xSBpCKZOua","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"pt-32","children":["$","$L2",null,{"product":{"name":"1111","directory":"rings/1111","cost":90,"shipping":10,"thumbnail":"img1.jpeg","slideshow_images":["img1.jpeg","img2.jpeg","img3.jpeg"],"details":{"description":"15 in binary"},"category":"rings"}}]}],[["$","script","script-0",{"src":"/jkbbth/_next/static/chunks/e6531bbba53b4921.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"xqWN9HS4pLYh2jkr_Tzr7","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"pt-32","children":["$","$L2",null,{"product":{"name":"1111","directory":"rings/1111","cost":90,"shipping":10,"thumbnail":"img1.jpeg","slideshow_images":["img1.jpeg","img2.jpeg","img3.jpeg"],"details":{"description":"15 in binary"},"category":"rings"}}]}],[["$","script","script-0",{"src":"/_next/static/chunks/b70c2acfe835be27.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d774b74e798b3ded.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
