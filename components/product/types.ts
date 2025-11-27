@@ -1,5 +1,6 @@
 export interface Product {
   name: string;
+  category?: string;
   directory?: string;
   image_directory?: string;
   cost: number;

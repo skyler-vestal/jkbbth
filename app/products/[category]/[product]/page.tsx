@@ -1,16 +1,11 @@
 import ProductDisplay from "./product-display";
-import fs from 'fs';
-import path from 'path';
-import yaml from 'js-yaml';
-import { YamlData } from '@/components/product/types';
+import { getAllCategories, getProductBySlug } from '@/lib/products';
+import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
-  const filePath = path.join(process.cwd(), 'public', 'products', 'products.yaml');
-  const fileContents = fs.readFileSync(filePath, 'utf8');
-  const data = yaml.load(fileContents) as YamlData;
-
+  const categories = getAllCategories();
   const params = [];
-  for (const category of data.products) {
+  for (const category of categories) {
     for (const item of category.items) {
       params.push({
         category: category.category,
@@ -18,14 +13,24 @@ export async function generateStaticParams() {
       });
     }
   }
-
   return params;
 }
 
-export default function ProductPage() {
+export default async function ProductPage({
+  params,
+}: {
+  params: Promise<{ category: string; product: string }>;
+}) {
+  const { category, product: productSlug } = await params;
+  const product = getProductBySlug(category, productSlug);
+
+  if (!product) {
+    notFound();
+  }
+
   return (
     <div className="pt-32">
-      <ProductDisplay />
+      <ProductDisplay product={product} />
     </div>
   );
 }

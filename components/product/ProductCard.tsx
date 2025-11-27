@@ -3,23 +3,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import Link from 'next/link';
-
-interface ProductDetails {
-  description: string;
-  smaller_details: any[];
-}
-
-interface Product {
-  name: string;
-  category?: string;
-  directory?: string;
-  image_directory?: string;
-  cost: number;
-  thumbnail: string;
-  hover_image?: string;
-  slideshow_images: string[];
-  details: ProductDetails;
-}
+import { Product } from './types';
 
 interface ProductCardProps {
   product: Product;
