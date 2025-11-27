@@ -1,0 +1,250 @@
+products:
+  - category: necklaces
+    items:
+      - name: Hand Pendant Choker
+        directory: necklaces/hand-pendant-choker
+        cost: 130
+        shipping: 10
+        thumbnail: img1.png
+        hover_image: img2.png
+        slideshow_images:
+          - img2.png
+          - img1.png
+        gallery_images:
+          - gal1.png
+          - gal2.png
+          - img1.png
+          - img2.png
+        details:
+          description: polished/oxidized finish
+          smaller_details:
+            - material: 925 sterling silver
+              gemstone: "red cubic zirconia pendant size: 22mm"
+              chain_length: 35cm/40cm
+              weight: 25g (approx.)
+      - name: Prism
+        directory: necklaces/prism
+        cost: 170
+        shipping: 10
+        thumbnail: img1.png
+        hover_image: img2.png
+        slideshow_images:
+          - img2.png
+          - img3.png
+          - img1.png
+        gallery_images:
+          - gal1.png
+          - gal2.png
+          - gal3.png
+          - gal4.png
+          - gal5.png
+          - gal6.png
+        details:
+          description: polished/oxidized finish
+          smaller_details:
+            - material: 925 sterling silver
+              pendant size: 26mm
+              chain length: 55cm
+              weight: 50g (approx.)
+      - name: Hand Chain Choker
+        image_directory: necklaces/hand-chain-choker
+        cost: 295
+        shipping: 10
+        thumbnail: img1.jpg
+        hover_image: img2.jpg
+        slideshow_images:
+          - img1.jpg
+          - img2.jpg
+        gallery_images:
+          - gal1.jpg
+          - gal2.jpg
+          - gal3.jpg
+          - img2.jpg
+        details:
+          description: polished/oxidized finish
+          smaller_details:
+            - material: 925 sterling silver
+              unit size: 26mm
+              weight: 100g - 120g (approx.)
+  - category: rings
+    items:
+      - name: "1111"
+        directory: rings/1111
+        cost: 90
+        shipping: 10
+        thumbnail: img1.jpeg
+        slideshow_images:
+          - img1.jpeg
+          - img2.jpeg
+          - img3.jpeg
+        details:
+          description: 15 in binary
+      - name: Round Signet Turquoise
+        directory: rings/round-signet-turquoise-thin
+        cost: 135
+        shipping: 10
+        thumbnail: img1.jpeg
+        slideshow_images:
+          - img1.jpeg
+        details:
+          description: 10mm turquoise stone on top
+      - name: t8
+        directory: rings/t8
+        cost: 150
+        shipping: 10
+        thumbnail: img1.jpg
+        slideshow_images:
+          - img1.jpg
+        gallery_images:
+          - gal1.jpeg
+          - gal2.jpeg
+          - gal3.jpeg
+          - gal4.jpeg
+          - gal5.jpeg
+        details:
+          description: ⚠️☣️⚠️
+      - name: Flat Square Signet
+        directory: rings/flat-square-signet
+        cost: 115
+        shipping: 10
+        thumbnail: img1.png
+        slideshow_images:
+          - img2.png
+        details:
+          description: ⬜
+          smaller_details:
+            - material: 925 sterling silver
+              gem: red cubic zirconia
+              weight: 9g (approx.)
+              table: 13mm(w) x 13.5mm(h)
+              band: 3mm
+      - name: Round Signet White Mother of Pearl
+        directory: rings/round-signet-white-mother-of-pearl-bold
+        cost: 135
+        shipping: 10
+        thumbnail: img1.jpg
+        slideshow_images:
+          - img1.jpg
+        details:
+          description: 10mm round white mother of pearl stone on top
+      - name: Round Signet Black Mother of Pearl
+        directory: rings/round-signet-black-mother-of-pearl-bold
+        cost: 135
+        shipping: 10
+        thumbnail: img1.jpg
+        slideshow_images:
+          - img1.jpg
+        details:
+          description: 10mm round black mother of pearl stone on top
+      - name: Round Signet Onyx
+        directory: rings/round-signet-onyx-bold
+        cost: 135
+        shipping: 10
+        thumbnail: img1.jpg
+        slideshow_images:
+          - img1.jpg
+        details:
+          description: 10mm onyx stone on top
+      - name: Oval
+        directory: rings/oval
+        cost: 90
+        shipping: 10
+        thumbnail: img1.jpg
+        slideshow_images:
+          - img1.jpg
+        gallery_images:
+          - gal1.jpg
+          - gal2.jpg
+          - gal3.jpg
+          - gal4.jpg
+          - gal5.jpg
+        details:
+          description: ⚪
+      - name: Skull
+        directory: rings/skull
+        cost: 135
+        shipping: 10
+        thumbnail: img1.png
+        slideshow_images:
+          - img1.png
+        gallery_images:
+          - gal1.jpg
+          - gal2.jpg
+          - gal3.jpg
+          - gal4.jpg
+          - gal5.jpg
+          - gal6.jpg
+        details:
+          description: a jawless skull, polished/oxidized finish
+          smaller_details:
+            - material: 925 sterling silver
+              gem: red cubic zirconia
+              weight: 12g (approx.)
+              table: 13.5mm(w) x 15mm(h)
+              band: 5mm
+      - name: Horseshoe
+        directory: rings/horseshoe
+        cost: 155.48
+        shipping: 10
+        thumbnail: img1.jpg
+        hover_image: img2.jpg
+        slideshow_images:
+          - img1.jpg
+          - img2.jpg
+        gallery_images:
+          - gal1.jpg
+          - gal2.jpg
+          - gal3.jpg
+          - gal4.jpg
+          - gal5.jpg
+        details:
+          description: be with luck
+      - name: Flat Round Black Mother of Pearl
+        directory: rings/flat-round-bold-black-mother-of-pearl
+        cost: 115
+        shipping: 10
+        thumbnail: img1.jpeg
+        hover_image: img2.jpeg
+        slideshow_images:
+          - img1.jpeg
+          - img2.jpeg
+          - img3.jpeg
+        gallery_images:
+          - img1.jpeg
+          - img2.jpeg
+          - img3.jpeg
+        details:
+          description: ⚫
+  - category: others
+    items:
+      - name: Shoe Horn
+        directory: others/shoe-horn
+        cost: 40
+        shipping: 10
+        thumbnail: img1.png
+        slideshow_images:
+          - img1.png
+        gallery_images:
+          - gal1.png
+          - gal2.png
+          - gal3.png
+          - gal4.png
+      - name: Red Stars
+        directory: others/red-stars
+        cost: 90
+        shipping: 10
+        thumbnail: img1.png
+        slideshow_images:
+          - img1.png
+        gallery_images:
+          - gal1.png
+          - gal2.png
+          - gal3.png
+          - gal4.png
+      - name: Silver Fork
+        directory: others/fork
+        cost: 280
+        shipping: 10
+        thumbnail: img1.jpg
+        slideshow_images:
+          - img1.jpg
