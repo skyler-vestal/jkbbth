@@ -7,7 +7,7 @@ const PRODUCT_IMAGES = [
   "/products/others/fork/img1.jpg",
   "/products/rings/oval/img1.jpg",
   "/products/rings/horseshoe/img1.jpg",
-  "/products/necklaces/hand_chain_choker/img1.jpg",
+  "/products/necklaces/hand-chain-choker/img1.jpg",
 ];
 
 interface ScrollingProductGalleryProps {
