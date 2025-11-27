@@ -49,6 +49,16 @@ async function getProducts(category: string) {
   }
 }
 
+export async function generateStaticParams() {
+  const filePath = path.join(process.cwd(), 'public', 'products', 'products.yaml');
+  const fileContents = fs.readFileSync(filePath, 'utf8');
+  const data = yaml.load(fileContents) as YamlData;
+
+  return data.products.map((category) => ({
+    category: category.category,
+  }));
+}
+
 export default async function CategoryPage({
   params,
 }: {
